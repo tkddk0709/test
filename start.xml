@@ -4,7 +4,7 @@
         <WINDOW layout="0,0,320,460" defaultImg="#ffffff">
             <LABEL layout="10,10,auto,auto" text="Hello MOML" />
             <!--<LABVIEW layout="10,10,300,300" src="http://youtube.com" control="name"/>-->
-            <CAMERA id="cam"layout="10,10,300,300"/>
+            <CAMERA id="cam" layout="10,10,300,300"/>
             <WINDOW layout="10,380,300,auto" align="linear">
                 <BUTTON text="open" onClick="cam.open"/>
                 <BUTTON text="close" onClick="cam.close"/>
